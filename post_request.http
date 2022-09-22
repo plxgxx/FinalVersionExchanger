@@ -1,0 +1,9 @@
+POST http://127.0.0.1:5000/currency/trade/USDxBTC
+Content-Type: application/json
+
+{
+  "amount": 471,
+  "OperType": "Transfer",
+  "fee": "0",
+  "user_id": 1
+}
